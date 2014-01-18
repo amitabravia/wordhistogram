@@ -1,0 +1,70 @@
+body {
+	margin :0;
+	padding :0;
+	font-size:2em;
+}
+#wrapper{
+	width:99%;
+	height:auto;
+	display:block;
+}
+#main{
+	width:60%;
+	height:100%;
+	display:block;
+	float:left;
+	margin:30px 0 0 30px;
+}
+
+#right{
+	width:29%;
+	height:auto;
+	display:inline-block;
+	float:right;
+	margin:30px 10px 0 10px;
+}
+
+table{
+	width:100%;
+	font-size:1em;
+}
+
+#main table{
+	padding:50px 10px;
+	font-weight:bold;
+	/*font-size:inherit;*/
+}
+
+#main th{
+	font-size:2em;
+	color:rgb(53,110,193);
+}
+
+#right table{
+	font-size:1em;
+	padding:50px 10px;
+	/*font-size:inherit;*/
+}
+#suggestions{
+	font-size:1em;
+	font-weight:none;
+}
+span{
+	margin:0 10px;
+}
+input[type=text]{
+	width:80%;
+	height:3em;
+	border-radius:10px;
+	margin:10px 10px;
+}
+
+input[type=submit]{
+	margin:1em;
+	padding:12px;
+	background:orange;
+	color:brown;
+	font-weight:bold;
+	font-size:0.5em;
+	border-radius:10px;
+}
